@@ -8,13 +8,13 @@
 using string = std::string;
 
 
-struct CowsAndBullsCount
+struct CowsAndBullsCount //изначальные значения коров и быков
 {
 	int Bulls = 0;
 	int Cows = 0;
 };
 
-enum class GuessStatus
+enum class GuessStatus	// все возможные статусы после ввода слова
 {
 	Invalid_Status,
 	OK,
@@ -24,7 +24,7 @@ enum class GuessStatus
 	NotEnglishLanguage,
 };
 
-class CowsAndBullsGame
+class CowsAndBullsGame	// КЛАСС
 {
 public:
 	CowsAndBullsGame(); // конструктор
